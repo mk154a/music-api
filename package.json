@@ -1,0 +1,19 @@
+{
+  "name": "music-api",
+  "version": "1.0.0",
+  "description": "REST API to search and download YouTube music in MP3 format for MTA:SA",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["mta", "music", "api", "youtube", "mp3"],
+  "author": "mk154a",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "play-dl": "^1.9.7"
+  }
+}

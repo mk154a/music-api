@@ -1,0 +1,7 @@
+node_modules/
+mp3-cache/
+.env
+yt-cookies/
+*.log
+.DS_Store
+Thumbs.db
